@@ -1,4 +1,4 @@
-# Noun–Verb Analysis
+# Noun-Verb Analysis
 
 ## Problem Statement Analysis
 
@@ -54,7 +54,7 @@ actions or behaviours that can become methods or operations.
 
 ## Design Observation
 
-The noun–verb analysis helps separate **data/entities** from **behaviour**.
+The noun-verb analysis helps separate **data/entities** from **behaviour**.
 
 The main entity classes represent things that have their own identity and state,
 while service classes perform operations on those entities. For example, a `Seat`
