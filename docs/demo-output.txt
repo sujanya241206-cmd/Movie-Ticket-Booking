@@ -1,0 +1,59 @@
+Movie Ticket Booking System
+Welcome to GEHU Cinema
+
+1. View Movies
+2. View Shows
+3. View Seats
+4. Book Tickets
+5. Cancel Booking
+6. Exit
+
+Example successful booking:
+
+Select a movie:
+1. Interstellar - 10:00 AM
+2. 3 Idiots - 2:00 PM
+Enter your choice: 1
+
+How many seats do you want to book? 2
+Enter seat number 1: A1
+Enter seat number 2: A3
+Total Amount: Rs. 400
+
+Select payment method:
+1. UPI
+2. Card
+3. Cash
+Enter your choice: 1
+Enter UPI ID (enter fail to simulate failure): user@upi
+Processing UPI payment of Rs. 400
+UPI ID: user@upi
+Payment successful.
+
+Booking confirmed successfully!
+MOVIE TICKET
+Booking ID : B1001
+Movie      : Interstellar
+Screen     : 1
+Show Time  : 10:00 AM
+Seats      : A1 A3
+Amount     : Rs. 400
+Status     : CONFIRMED
+Thank you! Enjoy your movie!
+
+Example booked-seat rejection:
+
+Enter seat number 1: A1
+Seat A1 is already BOOKED.
+
+Example failed payment:
+
+Enter UPI ID (enter fail to simulate failure): fail
+Payment failed.
+Booking failed. Seats remain AVAILABLE.
+
+Example cancellation:
+
+Enter booking ID to cancel: B1001
+Booking B1001 cancelled successfully.
+Seats are AVAILABLE again.
